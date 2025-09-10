@@ -98,7 +98,7 @@ const Transactions = () => {
                       <strong>Product Name:</strong> {userPurchase.name}
                     </p>
                     <p className="flex justify-between my-4 font-bold truncate">
-                      Price <span>{formatUnits(userPurchase.price)}tCORE</span>{" "}
+                      Price <span>{formatUnits(userPurchase.price)}STT</span>{" "}
                     </p>
                   </div>
 

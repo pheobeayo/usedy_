@@ -7,7 +7,7 @@ import {
   useAppKitProvider,
 } from "@reown/appkit/react";
 import { toast } from "react-toastify";
-import { coreTestnet2 } from "@reown/appkit/networks";
+import { somniaTestnet } from "@reown/appkit/networks";
 import { ErrorDecoder } from "ethers-decode-error";
 import abi from "../constants/abi.json";
 import { ethers, Contract, formatUnits } from "ethers";
@@ -64,8 +64,8 @@ const BuyProduct = ({ id, price }) => {
         return;
       }
 
-      if (Number(chainId) !== Number(coreTestnet2.id)) {
-        toast.error("You're not connected to coreTestnet2 network");
+      if (Number(chainId) !== Number(somniaTestnet.id)) {
+        toast.error("You're not connected to somniaTestnet network");
         return;
       }
 
@@ -150,7 +150,7 @@ const BuyProduct = ({ id, price }) => {
                 Price per item:
               </label>
               <div className="text-white bg-[#2E343A] rounded-lg p-4 border border-white/50">
-                {price} tCORE
+                {price} STT
               </div>
             </div>
 

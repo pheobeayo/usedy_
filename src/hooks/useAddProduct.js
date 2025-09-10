@@ -2,7 +2,7 @@ import { useCallback } from "react";
 import useContractInstance from "./useContractInstance";
 import { useAppKitAccount, useAppKitNetwork } from "@reown/appkit/react";
 import { toast } from "react-toastify";
-import { coreTestnet2 } from "@reown/appkit/networks";
+import { somniaTestnet } from "@reown/appkit/networks";
 import { ErrorDecoder } from "ethers-decode-error";
 import abi from "../constants/abi.json";
 import { useProduct } from "../context/ContextProvider";
@@ -34,8 +34,8 @@ const useAddProduct = () => {
         return;
       }
 
-      if (Number(chainId) !== Number(coreTestnet2.id)) {
-        toast.error("You're not connected to coreTestnet2 network");
+      if (Number(chainId) !== Number(somniaTestnet.id)) {
+        toast.error("You're not connected to somniaTestnet network");
         return;
       }
 

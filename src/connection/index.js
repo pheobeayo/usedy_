@@ -1,11 +1,11 @@
 import { createAppKit } from "@reown/appkit/react";
 import { EthersAdapter } from "@reown/appkit-adapter-ethers";
-import { coreTestnet2 } from "@reown/appkit/networks";
+import { somniaTestnet } from "@reown/appkit/networks";
 
 // 1. Get projectId
 const projectId = import.meta.env.VITE_PROJECTID;
 
-const networks = [coreTestnet2];
+const networks = [somniaTestnet];
 
 // 3. Create a metadata object - optional
 const metadata = {
