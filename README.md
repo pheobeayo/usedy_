@@ -99,4 +99,13 @@ With a decentralised marketplace functionality and blockchain technology to ince
 UsedyToken deployed to 0x38b0917178b0C07bEAAf9c6255Ad97C1c9D984EE
 
 UsedyContract deployed to 0xF2837cD516f35686cBfD91B8A523abE6216DdE52
+
 ### Demo Link
+
+https://www.youtube.com/watch?v=t8o2QFjf-n0 
+
+### Pitch Deck:
+
+https://www.canva.com/design/DAGoERqNFUQ/e_Wb0RgcEIK0_2bcsTZdvQ/view?utm_content=DAGoERqNFUQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h39daa69549
+
+
